@@ -3,14 +3,22 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    
 }
+
+body {
+    
+}
+
 
 .container {
     width: 100%;
     min-height: 100vh;
-    background: wheat;
     color: #000;
     padding: 10px;
+    background-image: url(pexels-abhishek-mehta-7586516\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .calculator {
@@ -25,7 +33,7 @@
 }
 
 .calculator h1 span {
-    color: cadetblue;
+    color: whitesmoke;
 }
 
 .input-box {
@@ -50,7 +58,7 @@
 }
 
 .input-box button {
-    background: wheat;
+    background: whitesmoke;
     border: 0;
     outline: 0;
     padding: 15px 30px;
@@ -71,4 +79,12 @@
     background-size: 25px;
     cursor: pointer;
 
+}
+
+#result {
+    font-size: 20px;
+}
+
+#result span {
+    color: whitesmoke;
 }
